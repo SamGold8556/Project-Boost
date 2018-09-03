@@ -159,7 +159,7 @@ Prefab:
     - target: {fileID: 54322778169002352, guid: cade6706664110444b3bf5fd49542005,
         type: 2}
       propertyPath: m_Mass
-      value: 0.03
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 82744579986380146, guid: cade6706664110444b3bf5fd49542005,
         type: 2}
