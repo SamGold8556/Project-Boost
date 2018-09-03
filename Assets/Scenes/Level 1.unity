@@ -171,6 +171,21 @@ Prefab:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 8291853a105369845b5e611541c17e7c, type: 3}
+    - target: {fileID: 114811098632108084, guid: cade6706664110444b3bf5fd49542005,
+        type: 2}
+      propertyPath: rcsThrust
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114811098632108084, guid: cade6706664110444b3bf5fd49542005,
+        type: 2}
+      propertyPath: rocketThrust
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 54322778169002352, guid: cade6706664110444b3bf5fd49542005,
+        type: 2}
+      propertyPath: m_Drag
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cade6706664110444b3bf5fd49542005, type: 2}
   m_IsPrefabAsset: 0
