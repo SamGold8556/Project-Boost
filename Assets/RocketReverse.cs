@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RocketReverse : MonoBehaviour
+public class Rocket : MonoBehaviour
 {
     [SerializeField] float rcsThrust = 100f;
     [SerializeField] float rocketThrust = 100f;
@@ -49,11 +49,11 @@ public class RocketReverse : MonoBehaviour
 
 
         rigidBody.freezeRotation = true;
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.D))
         {
             transform.Rotate(Vector3.forward * rotationsThisFrame);
         }
-        else if (Input.GetKey(KeyCode.D))
+        else if (Input.GetKey(KeyCode.A))
         {
             transform.Rotate(-Vector3.forward * rotationsThisFrame);
         }
